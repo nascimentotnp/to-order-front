@@ -1,0 +1,33 @@
+.pizza{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+    font-size: 24px;
+
+}
+
+.pizza ul {
+    list-style: none; /* remove o marcador de pizza padrão */
+    margin: 0;
+    padding: 0;
+  }
+  
+.pizza li {
+    background-color: #ffe4c4;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+  }
+
+.pizza button {
+    background-color: #6276f7;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    color: #ffff;
+    margin: 32px 0;
+}

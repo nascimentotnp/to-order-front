@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Alterado para min-height */
+    background-color: #f4f4f4;
+}
+
+.ditrento-brand {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #e91e63; }
+    .ditrento .container .ditrento-brand span {
+      color: #e91e63; }
+    .ditrento .container .ditrento-brand i {
+      transition: 0.5s; }
+    .ditrento .container .ditrento-brand:hover i {
+      transform: rotate(360deg); }
+  .ditrento .container .collapse ul li a {
+    color: black;
+    font-weight: bolder;
+    transition: 0.3s; }
+
+/* Estilos do formulário */
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.formulario form {
+    max-width: 50%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+}
+.centered-button {
+    text-align: center;
+    border-radius: 8px;
+
+  }
+
+.centered-letter {
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+
+
+  }
+/* Estilos dos campos e rótulos */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+.label-input-container {
+    margin-bottom: 18px; 
+  }
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos do botão de envio */
+input[type="submit"] {
+    background-color: #b8514d;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 8px; /* Alterado para margin-top */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Adicionada transição */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Espaçamento entre o preço e o botão */
+#priceDisplay {
+    margin-top: 20px;
+}
