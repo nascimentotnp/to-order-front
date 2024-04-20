@@ -3,7 +3,7 @@ function Banner(){
 
     return(
         <header className="banner">
-            <img src="/images/banner.jpg" alt="Main Banner"/>     
+            <img src="" alt="Main Banner"/>
         </header>
         
     )
