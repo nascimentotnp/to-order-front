@@ -6,7 +6,6 @@ import { useParams } from "react-router-dom";
 
 function Formulary() {
   let { id } = useParams();
-  
   const [pizza, setPizza] = useState({
     name: "",
     price: "",
@@ -30,10 +29,7 @@ function Formulary() {
     getPizzaById()
   }, [])
 
-  useEffect(()=>{
-    getPastaById()
-  }, [])
-
+  
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     const newValue = type === "checkbox" ? checked : value;
